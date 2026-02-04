@@ -1,0 +1,6 @@
+[Unit]
+Description=Internet Watcher (event driven)
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/lib/internet-watcher/daemon.py
+Restart=on-failure
