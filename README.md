@@ -1,5 +1,5 @@
 # droidian phosh network monitor service
-Since the network-stack for wifi and mobile-data is a bit flacky, I decided to inform myself about issues, without countermeasures for now.
+(draft prototype) Since the network-stack for wifi and mobile-data is a bit flacky, I decided to inform myself about issues, without countermeasures for now.
 
 Monitors network connection via wifi or mobile-data every 3minutes.
 Start, stop and monitor service via Phosh Gui. With addiitonal basic network quailty indicators.
@@ -21,5 +21,11 @@ sudo apt install \
 ```
 
 Where to put your files:
-```~/.local/share/applications/internet-watcher.desktop```
-```~/.config/systemd/user/internet-watcher.timer```
+
+```
+~/.local/share/applications/internet-watcher.desktop
+~/.local/share/applications/internet-watcher.service
+~/.config/systemd/user/internet-watcher.timer
+```
+
+Other files can e.g. stay in your home
