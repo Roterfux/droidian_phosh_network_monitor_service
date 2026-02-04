@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Internet Watcher
+Exec=python3 gui.py
+Icon=network-wireless
+Type=Application
+StartupNotify=true
+X-GNOME-Autostart-enabled=true
