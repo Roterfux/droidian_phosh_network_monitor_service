@@ -73,7 +73,7 @@ def get_wifi_quality():
     return None, None
 
 
-def ping_latency(host="8.8.8.8"):
+def ping_latency(host="9.9.9.9"):
     """
     Return ping latency in ms, or None if unreachable
     """
