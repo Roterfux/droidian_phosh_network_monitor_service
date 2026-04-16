@@ -29,3 +29,6 @@ Where to put your files:
 ```
 
 Other files can e.g. stay in your home
+
+# License
+MIT
